@@ -1,0 +1,34 @@
+{
+	"name": "node-red-docker",
+	"version": "1.0.0",
+	"description": "Low-code programming for event-driven applications",
+	"main": "index.js",
+	"scripts": {
+		"start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@replit/database": "^2.0.2",
+		"ganache": "^7.4.3",
+		"node-red": "^3.0.2",
+		"node-red-contrib-aedes": "~0.8.2",
+		"node-red-contrib-crypto-js-dynamic": "~0.1.22",
+		"node-red-contrib-ethereum": "https://github.com/timweing/node-red-contrib-ethereum",
+		"node-red-contrib-ethers": "~1.0.6",
+		"node-red-contrib-fiware_official": "https://github.com/FIWARE/node-red-contrib-FIWARE_official.git#master",
+		"node-red-contrib-fs": "^1.4.1",
+		"node-red-contrib-letsfiware-ngsi": "~0.3.0",
+		"node-red-contrib-ui-led": "~0.4.11",
+		"node-red-contrib-ui-media": "~1.2.0",
+		"node-red-contrib-watchdirectory": "https://github.com/fatoldsun00/node-red-contrib-watchdirectory",
+		"node-red-dashboard": "~3.2.0",
+		"node-red-node-base64": "^0.3.0",
+		"node-red-node-smooth": "^0.1.2",
+		"node-red-node-ui-table": "~0.4.3",
+		"passport-fiware-oauth": "^0.3.0",
+		"truffle": "^5.5.32"
+	}
+}
